@@ -1,0 +1,57 @@
+<div class="hero min-h-full bg-base-200">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Register now!</h1>
+            <p class="py-6">Provident cupiditate voluptatem et in. Quaerat
+                fugiat ut assumenda excepturi exercitationem quasi. In deleniti
+                eaque aut repudiandae et a id nisi.</p>
+        </div>
+        <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <form class="card-body">
+                
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Username</span>
+                    </label>
+                    <input [(ngModel)]="username" name="username" type="text" placeholder="username"
+                        class="input input-bordered" required />
+                </div>
+
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Email</span>
+                    </label>
+                    <input [(ngModel)]="email" name="email" type="email" placeholder="email"
+                        class="input input-bordered" required />
+                </div>
+                
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Name</span>
+                    </label>
+                    <input [(ngModel)]="name" name="name" type="text" placeholder="name"
+                        class="input input-bordered" required />
+                    <label class="label">
+                    </label>
+                </div>
+                
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Password</span>
+                    </label>
+                    <input [(ngModel)]="password" name="password" type="password" placeholder="password"
+                        class="input input-bordered" required />
+                    <label class="label">
+                    </label>
+                </div>
+
+                <div class="form-control mt-6">
+                    <button (click)="onSignUpClick()" class="btn btn-primary">sign-up</button>
+                </div>
+                <!-- <div class="form-control"> -->
+                    <button routerLink="../" class="btn btn-ghost">back to login</button>
+                <!-- </div> -->
+            </form>
+        </div>
+    </div>
+</div>

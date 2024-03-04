@@ -1,0 +1,7 @@
+<main class="flex flex-col items-center m-8">
+    <div
+        class="grid w-fit h-fit lg:gap-8 gap-3 lg:grid-cols-2 xl:grid-cols-3 grid-cols-1">
+        <app-project-card *ngFor="let project of projects"
+            [project]="project"></app-project-card>
+    </div>
+</main>

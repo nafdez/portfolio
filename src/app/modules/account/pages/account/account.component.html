@@ -1,0 +1,48 @@
+<main class="flex h-full items-center justify-center">
+    <div class="card shrink-0 w-full max-w-md shadow-2xl bg-base-100">
+        <div class="card-body">
+
+            <label class="label text-xl">
+                <span>All we know about you:</span>
+            </label>
+
+            <div class="divider"></div>
+
+            <label class="label">
+                <span class="label-text">Username</span>
+                <span class="label-text">{{ user.username }}</span>
+            </label>
+
+            <label class="label">
+                <span class="label-text">Name</span>
+                <span class="label-text">{{ user.name }}</span>
+            </label>
+
+            <label class="label">
+                <span class="label-text">Email</span>
+                <span class="label-text">{{ user.email }}</span>
+            </label>
+
+            <label class="label">
+                <span class="label-text">IGAL*</span>
+                <span class="label-text">{{ user.points }}</span>
+            </label>
+
+            <label class="label">
+                <span class="label-text">Registered since</span>
+                <span class="label-text">{{ user.since }}</span>
+            </label>
+
+            <label class="label">
+                <span class="label-text">Last seen</span>
+                <span class="label-text">{{ user.last_seen }}</span>
+            </label>
+
+            <div class="divider"></div>
+
+            <label class="label text-xs">
+                <span>IGAL: Irreversible Gambling Addiction Level</span>
+            </label>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,77 @@
+<!-- <main class="flex flex-col h-full"> -->
+<div class="drawer h-full">
+    <input [(ngModel)]="drawerState" name="drawerState" id="main-drawer"
+        type="checkbox" class="drawer-toggle" />
+    <div class="drawer-content flex flex-col">
+        <!-- Navbar -->
+        <div class="navbar bg-base-100 sticky top-0 z-30">
+            <div class="flex-none lg:hidden">
+                <label for="main-drawer" aria-label="open sidebar"
+                    class="btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block w-6 h-6 stroke-current"><path
+                            stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </label>
+            </div>
+            <div routerLink
+                class="flex-1 px-2 mx-2 btn btn-ghost max-w-fit">Ignacio
+                Fernández</div>
+            <!-- Spacer span -->
+            <span class="flex-1"></span>
+            <div class="flex-none hidden lg:block">
+                <ul class="menu menu-horizontal">
+                    <!-- Navbar menu content here -->
+                    <li><a routerLink>Home</a></li>
+                    <li><a routerLink="projects">Projects</a></li>
+                    <li><a routerLink="contact">Contact</a></li>
+                    <li><a routerLink="about">About</a></li>
+                    <li *ngIf="username == '';else loggedAccount"><a
+                            routerLink="auth">Login</a></li>
+                    <li *ngIf="username != ''"><a
+                            (click)="onLogoutClick()">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Page content here -->
+        <div class="h-full">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="drawer-side z-40">
+        <label for="main-drawer" aria-label="close sidebar"
+            class="drawer-overlay"></label>
+        <ul class="menu p-8 w-80 min-h-full bg-base-100">
+            <!-- Sidebar content here -->
+            <!-- TOP -->
+            <li><a (click)="closeDrawer()" routerLink>Home</a></li>
+            <li><a (click)="closeDrawer()"
+                    routerLink="projects">Projects</a></li>
+            <li><a (click)="closeDrawer()" routerLink="contact">Contact</a></li>
+            <li><a (click)="closeDrawer()" routerLink="about">About</a></li>
+
+            <!-- SPACER -->
+            <div class="flex-1"></div>
+
+            <div class="divider"></div>
+
+            <!-- BOTTOM -->
+            <li *ngIf="username == '';else loggedAccount"><a
+                    (click)="closeDrawer()"
+                    routerLink="auth">Login</a></li>
+            <li *ngIf="username != ''"><a (click)="closeDrawer()"
+                    (click)="onLogoutClick()">Logout</a></li>
+        </ul>
+    </div>
+</div>
+<app-footer class="mt-auto"></app-footer>
+
+<ng-template #loggedAccount>
+    <li><a routerLink="account"> {{username}} </a></li>
+</ng-template>
+
+<ng-template #loggedAccountDrawer>
+    <li><a (click)="closeDrawer()" routerLink="account"> {{username}} </a></li>
+</ng-template>
