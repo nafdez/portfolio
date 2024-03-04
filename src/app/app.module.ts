@@ -21,6 +21,8 @@ import { UserService } from '@core/services/user.service';
 import { AuthGuard } from '@core/guard/auth.guard';
 import { FormsModule } from '@angular/forms';
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 @NgModule({
   declarations: [
     AppComponent,
