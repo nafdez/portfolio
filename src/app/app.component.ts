@@ -1,16 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { injectSpeedInsights } from '@vercel/speed-insights/*';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styles: []
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'portfolio-angular';
- 
-  ngOnInit(): void {
-      injectSpeedInsights();
-  }
-
 }

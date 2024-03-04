@@ -18,16 +18,11 @@ export class ReelComponent {
     "assets/images/projects/slot-machine/symbols/css_3.svg",
     "assets/images/projects/slot-machine/symbols/react.svg",
     "assets/images/projects/slot-machine/symbols/vs_code.svg",
-    "assets/images/projects/slot-machine/symbols/jb_IntelliJ_IDEA.svg",
-    "assets/images/projects/slot-machine/symbols/jb_pycharm.svg",
     "assets/images/projects/slot-machine/symbols/node_js.svg",
-    "assets/images/projects/slot-machine/symbols/npm.svg",
-    "assets/images/projects/slot-machine/symbols/firebase.svg",
     "assets/images/projects/slot-machine/symbols/mariadb.svg",
     "assets/images/projects/slot-machine/symbols/mongodb.svg",
     "assets/images/projects/slot-machine/symbols/mysql.svg",
-    "assets/images/projects/slot-machine/symbols/ts.svg",
-    "assets/images/projects/slot-machine/symbols/tailwindcss.svg",
+    "https://cdn.worldvectorlogo.com/logos/rust.svg"
   ];
 
   imgSrcTop: string | undefined = this.pathsRaw[0];
