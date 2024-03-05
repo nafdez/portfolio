@@ -2,29 +2,53 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="3260075693421550153" datatype="html">
-        <source> Contact me </source>
-      </trans-unit>
       <trans-unit id="4525621070272963915" datatype="html">
         <source>Software Development student.</source>
       </trans-unit>
       <trans-unit id="8549324120422120160" datatype="html">
         <source> See projects </source>
       </trans-unit>
+      <trans-unit id="3260075693421550153" datatype="html">
+        <source> Contact me </source>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+      </trans-unit>
       <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
-      </trans-unit>
-      <trans-unit id="4212985239102280850" datatype="html">
-        <source>Stack</source>
-      </trans-unit>
-      <trans-unit id="4837356879028271676" datatype="html">
-        <source>Ignacio Fernández</source>
       </trans-unit>
       <trans-unit id="24861467736556993" datatype="html">
         <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat in libero luctus scelerisque quis id nisl. Maecenas eget nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Praesent eget urna consectetur, rhoncus ante a, tristique magna. Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque ornare, elit at dictum maximus, elit ligula viverra turpis, ac aliquam. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur, urna eu tempor maximus, lacus justo placerat tortor, sit amet sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
       </trans-unit>
-      <trans-unit id="7091571651222742304" datatype="html">
-        <source>Projects</source>
+      <trans-unit id="4212985239102280850" datatype="html">
+        <source>Stack</source>
+      </trans-unit>
+      <trans-unit id="7772973528714116944" datatype="html">
+        <source>Rock Paper Scissors</source>
+      </trans-unit>
+      <trans-unit id="8537141917509894551" datatype="html">
+        <source>Small project for PMDM</source>
+      </trans-unit>
+      <trans-unit id="7038581506164332089" datatype="html">
+        <source>Slot-machine</source>
+      </trans-unit>
+      <trans-unit id="6851086933784734135" datatype="html">
+        <source>Project 3</source>
+      </trans-unit>
+      <trans-unit id="3352615472154886537" datatype="html">
+        <source>Example description project 3</source>
+      </trans-unit>
+      <trans-unit id="8693603235657020323" datatype="html">
+        <source>Other</source>
+      </trans-unit>
+      <trans-unit id="103220111367852293" datatype="html">
+        <source>Frontend</source>
+      </trans-unit>
+      <trans-unit id="1360286660327265296" datatype="html">
+        <source>Backend</source>
+      </trans-unit>
+      <trans-unit id="6444188314265110596" datatype="html">
+        <source>Databases</source>
       </trans-unit>
     </body>
   </file>

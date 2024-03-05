@@ -4,7 +4,7 @@
   <section class="hero h-auto snap-center">
     <div class="hero-content text-center">
       <div class="max-w-md">
-        <h1 class="text-5xl font-bold" i18n>Ignacio Fernández</h1>
+        <h1 class="text-5xl font-bold">Ignacio Fernández</h1>
         <p class="py-6" i18n>Software Development student.</p>
         <button routerLink="projects" class="btn btn-primary" i18n>
           See projects
@@ -21,7 +21,7 @@
 
   <!-- ABOUT SECTION -->
   <section
-    class="flex flex-col items-center min-h-full mx-8 md:mx-0 *:lg:max-w-4xl *:md:max-w-2xl *:mb-8">
+    class="flex flex-col items-center min-h-full mx-8 md:mx-0 *:lg:max-w-4xl *:md:max-w-2xl *:mb-16 snap-start [&>section>h2]:min-w-[18%] [&>section>h2]:text-center [&>section>h2]:lg:text-end">
     
     <!-- EXPERIENCE -->
 
@@ -35,7 +35,7 @@
 
       <bento class="p-3 md:p-6">
         <bento-card [card]="project1"></bento-card>
-        <bento-card [card]="project1"></bento-card>
+        <bento-card [card]="project2"></bento-card>
         <bento-card class="col-span-2" [card]="project1" size="large"></bento-card>
       </bento>
 
@@ -49,7 +49,7 @@
         class="divider divider-horizontal mt-[-1rem] mb-[-1.5rem] md:my-0 md:ml-[-1rem] md:mr-[-1.5rem]"></div>
 
       <article class="flex flex-col sm:flex-row gap-8 items-center">
-        <div class="[&>p]:mb-4" i18n>
+        <div class="[&>p]:mb-4 [&>p]:text-pretty" i18n>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             nec erat in libero luctus scelerisque quis id nisl. Maecenas eget
@@ -74,7 +74,7 @@
           <div class="avatar">
             <div class="w-64 rounded-xl rotate-2">
               <img
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                src="assets/images/home/meapple.webp" />
             </div>
           </div>
         </aside>
@@ -82,17 +82,17 @@
     </section>
 
     <!-- STACK -->
-    <section class="flex flex-col items-center p-8">
+    <section class="flex flex-col items-center">
       <h2 class="text-3xl font-bold" i18n>Stack</h2>
 
       <div class="divider"></div>
 
       <div
         class="grid w-fit h-fit sm:gap-8 gap-3 sm:grid-cols-2 md:grid-cols-4 grid-cols-1 *:w-auto *:min-w-fit">
-        <list-card title="Front-end" [elements]="frontendSkills" />
-        <list-card title="Back-end" [elements]="backendSkills" />
-        <list-card title="Databases" [elements]="dbSkills" />
-        <list-card title="Other" [elements]="otherSkills" />
+        <list-card i18n-title title="Frontend" [elements]="frontendSkills" />
+        <list-card i18n-title title="Backend" [elements]="backendSkills" />
+        <list-card i18n-title title="Databases" [elements]="dbSkills" />
+        <list-card i18n-title title="Other" [elements]="otherSkills" />
       </div>
     </section>
   </section>

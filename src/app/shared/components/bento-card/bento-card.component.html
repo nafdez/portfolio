@@ -1,10 +1,10 @@
-<div class="card bg-base-100 shadow-xl min-h-min max-h-full"
+<div class="card bg-base-100 shadow-xl h-full"
     [ngClass]="{colSpan: true}">
     <div class="card-body min-w-max max-h-1/3">
-        <h2 class="card-title">{{ card.title }}!</h2>
+        <h2 class="card-title">{{ card.title }}</h2>
         <p>{{ card.description }}</p>
     </div>
-    <figure class="h-2/3 aspect-video">
+    <figure class="aspect-video">
         <img class="object-cover hover:object-contain"
             [src]="card.picture"
             [alt]="card.description" />

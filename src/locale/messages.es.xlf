@@ -14,25 +14,57 @@
         <source> Contact me </source>
         <target state="new">Contáctame</target>
       </trans-unit>
-      <trans-unit id="4837356879028271676" datatype="html">
-        <source>Ignacio Fernández</source>
-        <target state="new">Ignacio Fernández</target>
-      </trans-unit>
       <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
-        <target state="new">About me</target>
+        <target state="new">Sobre mí</target>
       </trans-unit>
       <trans-unit id="4212985239102280850" datatype="html">
         <source>Stack</source>
-        <target state="new">Stack</target>
+        <target state="new">Tecnologías</target>
       </trans-unit>
       <trans-unit id="7091571651222742304" datatype="html">
         <source>Projects</source>
-        <target state="new">Projects</target>
+        <target state="new">Proyectos</target>
       </trans-unit>
       <trans-unit id="24861467736556993" datatype="html">
         <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat in libero luctus scelerisque quis id nisl. Maecenas eget nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Praesent eget urna consectetur, rhoncus ante a, tristique magna. Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque ornare, elit at dictum maximus, elit ligula viverra turpis, ac aliquam. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur, urna eu tempor maximus, lacus justo placerat tortor, sit amet sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
         <target state="new"><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat in libero luctus scelerisque quis id nisl. Maecenas eget nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Praesent eget urna consectetur, rhoncus ante a, tristique magna. Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque ornare, elit at dictum maximus, elit ligula viverra turpis, ac aliquam. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur, urna eu tempor maximus, lacus justo placerat tortor, sit amet sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="7772973528714116944" datatype="html">
+        <source>Rock Paper Scissors</source>
+        <target state="new">Piedra, papel o tijera</target>
+      </trans-unit>
+      <trans-unit id="8537141917509894551" datatype="html">
+        <source>Small project for PMDM</source>
+        <target state="new">Pequeño proyecto para PMDM</target>
+      </trans-unit>
+      <trans-unit id="7038581506164332089" datatype="html">
+        <source>Slot-machine</source>
+        <target state="new">Máquina tragaperras</target>
+      </trans-unit>
+      <trans-unit id="6851086933784734135" datatype="html">
+        <source>Project 3</source>
+        <target state="new">Proyecto 3</target>
+      </trans-unit>
+      <trans-unit id="3352615472154886537" datatype="html">
+        <source>Example description project 3</source>
+        <target state="new">Descriptción de ejemplo del proyecto 3</target>
+      </trans-unit>
+      <trans-unit id="8693603235657020323" datatype="html">
+        <source>Other</source>
+        <target state="new">Otros</target>
+      </trans-unit>
+      <trans-unit id="103220111367852293" datatype="html">
+        <source>Frontend</source>
+        <target state="new">Frontend</target>
+      </trans-unit>
+      <trans-unit id="1360286660327265296" datatype="html">
+        <source>Backend</source>
+        <target state="new">Backend</target>
+      </trans-unit>
+      <trans-unit id="6444188314265110596" datatype="html">
+        <source>Databases</source>
+        <target state="new">Bases de datos</target>
       </trans-unit>
     </body>
   </file>
