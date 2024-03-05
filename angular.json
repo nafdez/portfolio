@@ -5,9 +5,9 @@
   "projects": {
     "portfolio-angular": {
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "en",
         "locales": {
-          "es-ES": "src/locale/messages.es.xlf"
+          "es": "src/locale/messages.es.xlf"
         }
       },
       "projectType": "application",
@@ -46,7 +46,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "localize": [
-              "es-ES"
+              "en",
+              "es"
             ],
             "outputPath": "dist/portfolio-angular",
             "index": "src/index.html",
