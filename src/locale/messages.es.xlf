@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4525621070272963915" datatype="html">
+        <source>Software Development student.</source>
+        <target>Estudiante de desarrollo de software</target>
+      </trans-unit>
+      <trans-unit id="8549324120422120160" datatype="html">
+        <source> See projects </source>
+        <target state="new">Proyectos</target>
+      </trans-unit>
+      <trans-unit id="3260075693421550153" datatype="html">
+        <source> Contact me </source>
+        <target state="new">Contáctame</target>
+      </trans-unit>
+      <trans-unit id="4837356879028271676" datatype="html">
+        <source>Ignacio Fernández</source>
+        <target state="new">Ignacio Fernández</target>
+      </trans-unit>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <target state="new">About me</target>
+      </trans-unit>
+      <trans-unit id="4212985239102280850" datatype="html">
+        <source>Stack</source>
+        <target state="new">Stack</target>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <target state="new">Projects</target>
+      </trans-unit>
+      <trans-unit id="24861467736556993" datatype="html">
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat in libero luctus scelerisque quis id nisl. Maecenas eget nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Praesent eget urna consectetur, rhoncus ante a, tristique magna. Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque ornare, elit at dictum maximus, elit ligula viverra turpis, ac aliquam. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur, urna eu tempor maximus, lacus justo placerat tortor, sit amet sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <target state="new"><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat in libero luctus scelerisque quis id nisl. Maecenas eget nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Praesent eget urna consectetur, rhoncus ante a, tristique magna. Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque ornare, elit at dictum maximus, elit ligula viverra turpis, ac aliquam. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur, urna eu tempor maximus, lacus justo placerat tortor, sit amet sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

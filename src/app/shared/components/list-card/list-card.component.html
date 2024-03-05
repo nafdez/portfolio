@@ -1,0 +1,18 @@
+<div class="card bg-base-100 shadow-lg">
+    <div class="card-body">
+        <label for="type" class="font-bold">
+            <span id="type">{{ title }}</span>
+        </label>
+
+        <div class="divider mt-[-0.25rem] mb-[-0.25rem]"></div>
+
+        <ul class="flex flex-col gap-2">
+            <li *ngFor="let element of elements" class="flex gap-1">
+                <img [src]="element.icon" class="w-6" [alt]="element.name">
+                <span>
+                    {{ element.name }}
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,12 +1,99 @@
+<!-- <main class="h-full snap-y snap-proximity overflow-y-scroll"> -->
 <main class="h-full">
-  <section class="hero min-h-full bg-base-200">
+  <!-- <section class="hero h-screen snap-center"> -->
+  <section class="hero h-auto snap-center">
     <div class="hero-content text-center">
       <div class="max-w-md">
-        <h1 class="text-5xl font-bold">Hello there</h1>
-        <p class="py-6">Software Development student.</p>
-        <button routerLink="projects" class="btn btn-primary">See projects</button>
-        <button routerLink="contact" class="btn btn-outline ml-2">Contact me</button>
+        <h1 class="text-5xl font-bold" i18n>Ignacio Fernández</h1>
+        <p class="py-6" i18n>Software Development student.</p>
+        <button routerLink="projects" class="btn btn-primary" i18n>
+          See projects
+        </button>
+        <button routerLink="contact" class="btn btn-outline ml-2" i18n>
+          Contact me
+        </button>
       </div>
     </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <!-- <section class="min-h-full snap-center"></section> -->
+
+  <!-- ABOUT SECTION -->
+  <section
+    class="flex flex-col items-center min-h-full mx-8 md:mx-0 *:lg:max-w-4xl *:md:max-w-2xl *:mb-8">
+    
+    <!-- EXPERIENCE -->
+
+    <!-- TOP PROJECTS -->
+    <section class="flex flex-col lg:flex-row gap-8 mt-8">
+      <!-- To implement -->
+      <h2 class="whitespace-nowrap text-3xl font-bold" i18n>Projects</h2>
+
+      <div
+        class="divider divider-horizontal mt-[-1rem] mb-[-1.5rem] md:my-0 md:ml-[-1rem] md:mr-[-1.5rem]"></div>
+
+      <bento class="p-3 md:p-6">
+        <bento-card [card]="project1"></bento-card>
+        <bento-card [card]="project1"></bento-card>
+        <bento-card class="col-span-2" [card]="project1" size="large"></bento-card>
+      </bento>
+
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="flex flex-col lg:flex-row gap-8">
+      <h2 class="whitespace-nowrap text-3xl font-bold" i18n>About me</h2>
+
+      <div
+        class="divider divider-horizontal mt-[-1rem] mb-[-1.5rem] md:my-0 md:ml-[-1rem] md:mr-[-1.5rem]"></div>
+
+      <article class="flex flex-col sm:flex-row gap-8 items-center">
+        <div class="[&>p]:mb-4" i18n>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            nec erat in libero luctus scelerisque quis id nisl. Maecenas eget
+            nunc lacinia, dictum ex vel, venenatis arcu. Maecenas vel.
+          </p>
+
+          <p>
+            Praesent eget urna consectetur, rhoncus ante a, tristique magna.
+            Morbi imperdiet orci sit amet diam iaculis vulputate. Quisque
+            ornare, elit at dictum maximus, elit ligula viverra turpis, ac
+            aliquam.
+          </p>
+
+          <p>
+            Etiam fermentum metus sed elit fermentum dapibus. Donec consectetur,
+            urna eu tempor maximus, lacus justo placerat tortor, sit amet
+            sagittis lorem justo non ipsum. Quisque venenatis ut dolor eu.
+          </p>
+        </div>
+
+        <aside>
+          <div class="avatar">
+            <div class="w-64 rounded-xl rotate-2">
+              <img
+                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+          </div>
+        </aside>
+      </article>
+    </section>
+
+    <!-- STACK -->
+    <section class="flex flex-col items-center p-8">
+      <h2 class="text-3xl font-bold" i18n>Stack</h2>
+
+      <div class="divider"></div>
+
+      <div
+        class="grid w-fit h-fit sm:gap-8 gap-3 sm:grid-cols-2 md:grid-cols-4 grid-cols-1 *:w-auto *:min-w-fit">
+        <list-card title="Front-end" [elements]="frontendSkills" />
+        <list-card title="Back-end" [elements]="backendSkills" />
+        <list-card title="Databases" [elements]="dbSkills" />
+        <list-card title="Other" [elements]="otherSkills" />
+      </div>
+    </section>
   </section>
 </main>

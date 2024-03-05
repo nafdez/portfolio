@@ -2,11 +2,13 @@
 
     <div class="flex flex-col items-center">
         <label for="title" class="text-3xl font-bold">
-            <span id="title">Stack tecnológico</span>
+            <span id="title">Stack</span>
         </label>
+
         <div class="divider"></div>
 
-        <div class="grid w-fit h-fit sm:gap-8 gap-3 sm:grid-cols-2 md:grid-cols-4 grid-cols-1 *:w-auto *:min-w-fit">
+        <div
+            class="grid w-fit h-fit sm:gap-8 gap-3 sm:grid-cols-2 md:grid-cols-4 grid-cols-1 *:w-auto *:min-w-fit">
             <app-stack-card title="Front-end"
                 [skills]="frontendSkills"></app-stack-card>
             <app-stack-card title="Back-end"

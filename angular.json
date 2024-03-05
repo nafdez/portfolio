@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "portfolio-angular": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es-ES": "src/locale/messages.es.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,6 +45,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": [
+              "es-ES"
+            ],
             "outputPath": "dist/portfolio-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -95,9 +104,14 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
           "options": {
-            "browserTarget": "portfolio-angular:build"
+            "browserTarget": "portfolio-angular:build",
+            "format": "xlf",
+            "outputPath": "src/locale",
+            "targetFiles": [
+              "messages.es.xlf"
+            ]
           }
         },
         "test": {
