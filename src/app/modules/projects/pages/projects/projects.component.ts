@@ -10,43 +10,43 @@ export class ProjectsComponent {
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'rps-game'
     ),
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'a'
     ),
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'a'
     ),
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'a'
     ),
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'a'
     ),
     new Project(
       'Rock-paper-scissors',
       'Rock paper scissors! now in Vision Pro',
-      'assets/images/projects/rock-paper-scissors/proj-pic.webp',
+      'assets/images/projects/rock-paper-scissors/proj-pic.png',
       'a'
     ),
     new Project(
       'Hola',
       'Mierda',
-      'assets/images/projects/slot-machine/proj-pic.webp',
+      'assets/images/projects/slot-machine/proj-pic.png',
       'slot-game'
     ),
   ];

@@ -27,4 +27,8 @@ export class MainpageComponent implements OnInit {
   closeDrawer() {
     this.drawerState = false;
   }
+
+  themeChange(theme: string) {
+    document.querySelector("html")?.setAttribute("data-theme", theme);
+  }
 }

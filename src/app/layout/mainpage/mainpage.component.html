@@ -32,6 +32,15 @@
                             routerLink="auth">Login</a></li>
                     <li *ngIf="username != ''"><a
                             (click)="onLogoutClick()">Logout</a></li>
+                    <li class="dropdown dropdown-end">
+                        <a tabindex="0" role="button">Theme</a>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 mt-2 gap-y-2">
+                            <li><a (click)="themeChange('light')" data-theme="light">Light</a></li>
+                            <li><a (click)="themeChange('dark')" data-theme="dark">Dark</a></li>
+                            <li><a (click)="themeChange('valentine')" data-theme="valentine">Valentine</a></li>
+                            <li><a (click)="themeChange('halloween')" data-theme="halloween">Halloween</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -59,7 +68,8 @@
             <li><a (click)="closeDrawer()" routerLink>Home</a></li>
             <li><a (click)="closeDrawer()"
                     routerLink="projects">Projects</a></li>
-            <li><a (click)="closeDrawer()" routerLink="contact">Contact</a></li>
+            <li><a (click)="closeDrawer()"
+                    routerLink="contact">Contact</a></li>
 
             <!-- SPACER -->
             <div class="flex-1"></div>
@@ -81,5 +91,6 @@
 </ng-template>
 
 <ng-template #loggedAccountDrawer>
-    <li><a (click)="closeDrawer()" routerLink="account"> {{username}} </a></li>
+    <li><a (click)="closeDrawer()" routerLink="account"> {{username}}
+        </a></li>
 </ng-template>
