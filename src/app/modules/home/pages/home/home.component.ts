@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { Card } from "@shared/components/bento-card/bento-card.component";
 import { ListCardElement } from "@shared/components/list-card/list-card.component";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
   selector: "app-home",
@@ -8,11 +9,34 @@ import { ListCardElement } from "@shared/components/list-card/list-card.componen
   styles: [],
 })
 export class HomeComponent {
+  constructor(private router: ActivatedRoute) {
+    router.params.subscribe((params) => {
+      console.log(params);
+      window.location.reload();
+    });
+  }
+
+  // Just placeholders
 
   // Projects
-  project1 = new Card($localize `Rock Paper Scissors`, $localize `Small project for PMDM`, 'assets/images/projects/rock-paper-scissors/proj-pic.png', 'projects/rps-game')
-  project2 = new Card($localize `Slot-machine`, $localize `Small project for PMDM`, 'assets/images/projects/slot-machine/proj-pic.png', 'projects/slot-game')
-  project3 = new Card($localize `Project 3`, $localize `Example description project 3`, 'assets/images/projects/rock-paper-scissors/proj-pic.png', 'projects/rps-game')
+  project1 = new Card(
+    $localize`Rock Paper Scissors`,
+    $localize`Small project for PMDM`,
+    "assets/images/projects/rock-paper-scissors/proj-pic.png",
+    "projects/rps-game"
+  );
+  project2 = new Card(
+    $localize`Slot-machine`,
+    $localize`Small project for PMDM`,
+    "assets/images/projects/slot-machine/proj-pic.png",
+    "projects/slot-game"
+  );
+  project3 = new Card(
+    $localize`Project 3`,
+    $localize`Example description project 3`,
+    "assets/images/projects/rock-paper-scissors/proj-pic.png",
+    "projects/rps-game"
+  );
 
   frontendSkills: ListCardElement[] = [
     new ListCardElement(

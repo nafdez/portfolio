@@ -1,4 +1,4 @@
-import { BootstrapOptions, Component } from "@angular/core";
+import { Component } from "@angular/core";
 import { Router } from "@angular/router";
 import { User } from "@core/models/user";
 import { UserService } from "@core/services/user.service";
