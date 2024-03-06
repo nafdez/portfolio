@@ -4,7 +4,8 @@
         type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col">
         <!-- Navbar -->
-        <div class="navbar bg-base-200 sticky top-0 shadow-sm z-30">
+        <div
+            class="navbar bg-base-200 sticky backdrop-filter backdrop-blur-md bg-opacity-85 scroll top-0 shadow-sm z-30">
             <div class="flex-none lg:hidden">
                 <label for="main-drawer" aria-label="open sidebar"
                     class="btn btn-square btn-ghost">
@@ -27,7 +28,6 @@
                     <li><a routerLink>Home</a></li>
                     <li><a routerLink="projects">Projects</a></li>
                     <li><a routerLink="contact">Contact</a></li>
-                    <li><a routerLink="about">About</a></li>
                     <li *ngIf="username == '';else loggedAccount"><a
                             routerLink="auth">Login</a></li>
                     <li *ngIf="username != ''"><a
@@ -45,12 +45,21 @@
             class="drawer-overlay"></label>
         <ul class="menu p-8 w-80 min-h-full bg-base-100">
             <!-- Sidebar content here -->
+            <!-- <div class="flex items-center gap-4">
+                <div class="avatar">
+                    <div class="w-12 rounded-full">
+                        <img
+                            src="assets/images/home/meapple.webp" />
+                    </div>
+                </div>
+                <span>Ignacio Fernández</span>
+            </div> -->
+            <div class="divider"></div>
             <!-- TOP -->
             <li><a (click)="closeDrawer()" routerLink>Home</a></li>
             <li><a (click)="closeDrawer()"
                     routerLink="projects">Projects</a></li>
             <li><a (click)="closeDrawer()" routerLink="contact">Contact</a></li>
-            <li><a (click)="closeDrawer()" routerLink="about">About</a></li>
 
             <!-- SPACER -->
             <div class="flex-1"></div>

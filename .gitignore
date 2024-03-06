@@ -63,3 +63,5 @@ aio/content/examples/.DS_Store
 .angular/
 .vercel
 .vercelignore
+Dockerfile
+.dockerignore

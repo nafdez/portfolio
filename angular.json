@@ -66,6 +66,14 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": ["en"],
+              "baseHref": ""
+            },
+            "es": {
+              "localize": ["es"],
+              "baseHref": ""
+            },
             "production": {
               "budgets": [
                 {
@@ -87,7 +95,8 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "localize": ["es"]
             }
           },
           "defaultConfiguration": "production"
@@ -100,6 +109,12 @@
             },
             "development": {
               "browserTarget": "portfolio-angular:build:development"
+            },
+            "en": {
+              "browserTarget": "portfolio-angular:build:en"
+            },
+            "es": {
+              "browserTarget": "portfolio-angular:build:es"
             }
           },
           "defaultConfiguration": "development"

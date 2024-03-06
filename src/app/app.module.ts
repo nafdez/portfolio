@@ -12,7 +12,6 @@ import { SharedModule } from "@shared/shared.module";
 import { HomeModule } from "@modules/home/home.module";
 import { ProjectsModule } from "@modules/projects/projects.module";
 import { ContactModule } from "@modules/contact/contact.module";
-import { AboutModule } from "@modules/about/about.module";
 
 import { LocationStrategy, PathLocationStrategy } from "@angular/common";
 import { HttpService } from "@core/services/http.service";
@@ -33,7 +32,6 @@ import { FormsModule } from "@angular/forms";
     HomeModule,
     ProjectsModule,
     ContactModule,
-    AboutModule,
   ],
   providers: [
     HttpService,

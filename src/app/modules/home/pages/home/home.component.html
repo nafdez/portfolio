@@ -1,17 +1,21 @@
 <!-- <main class="h-full snap-y snap-proximity overflow-y-scroll"> -->
 <main class="h-full">
   <!-- <section class="hero h-screen snap-center"> -->
-  <section class="hero h-[35vh] shadow-xl snap-center">
+  <section class="hero min-h-[35vh] py-8 shadow-xl">
     <div class="hero-content text-center">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold">Ignacio Fernández</h1>
         <p class="py-6" i18n>Software Development student.</p>
         <button routerLink="projects" class="btn btn-primary" i18n>
           See projects
+          <!-- <a href="#section-about">See projects</a> -->
         </button>
         <button routerLink="contact" class="btn btn-outline ml-2" i18n>
           Contact me
         </button>
+        <!-- <br>
+        <btn-pic text="Github" pic="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"></btn-pic>
+        <btn-pic text="Linkedin" pic="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"></btn-pic> -->
       </div>
     </div>
   </section>
@@ -20,9 +24,8 @@
   <!-- <section class="min-h-full snap-center"></section> -->
 
   <!-- ABOUT SECTION -->
-  <section
-    class="flex flex-col items-center min-h-full mx-8 md:mx-0 *:lg:max-w-4xl *:md:max-w-2xl *:mb-16 snap-start [&>section>h2]:min-w-[18%] [&>section>h2]:text-center [&>section>h2]:lg:text-end">
-    
+  <section id="section-about"
+    class="flex flex-col items-center min-h-full mt-2 mx-8 md:mx-0 *:lg:max-w-4xl *:md:max-w-2xl *:mb-16 snap-start [&>section>h2]:min-w-[18%] [&>section>h2]:text-center [&>section>h2]:lg:text-end">
     <!-- EXPERIENCE -->
 
     <!-- TOP PROJECTS -->
@@ -36,7 +39,7 @@
       <bento class="p-3 md:p-6">
         <bento-card [card]="project1"></bento-card>
         <bento-card [card]="project2"></bento-card>
-        <bento-card class="col-span-2" [card]="project1"></bento-card>
+        <bento-card class="md:col-span-2" [card]="project1"></bento-card>
       </bento>
 
     </section>
