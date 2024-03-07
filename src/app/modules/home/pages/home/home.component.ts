@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { Card } from "@shared/components/bento-card/bento-card.component";
 import { ListCardElement } from "@shared/components/list-card/list-card.component";
-import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
   selector: "app-home",
@@ -9,13 +8,6 @@ import { ActivatedRoute, Router } from "@angular/router";
   styles: [],
 })
 export class HomeComponent {
-  constructor(private router: ActivatedRoute) {
-    router.params.subscribe((params) => {
-      console.log(params);
-      window.location.reload();
-    });
-  }
-
   // Just placeholders
 
   // Projects
