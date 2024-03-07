@@ -79,7 +79,7 @@
 .rps-btn:focus {
   filter: drop-shadow(0 0 4px red);
 }
-
+/* 
 .rock {
   background-image: url(assets/images/projects/rock-paper-scissors/rock.webp);
 }
@@ -90,7 +90,7 @@
 
 .scissors {
   background-image: url(assets/images/projects/rock-paper-scissors/scissors.webp);
-}
+} */
 
 .rps-container {
   display: flex;
