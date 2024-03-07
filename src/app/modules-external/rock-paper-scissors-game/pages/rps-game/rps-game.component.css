@@ -81,15 +81,15 @@
 }
 
 .rock {
-  background-image: url(/assets/images/projects/rock-paper-scissors/rock.webp);
+  background-image: url(assets/images/projects/rock-paper-scissors/rock.webp);
 }
 
 .paper {
-  background-image: url(/assets/images/projects/rock-paper-scissors/paper.webp);
+  background-image: url(assets/images/projects/rock-paper-scissors/paper.webp);
 }
 
 .scissors {
-  background-image: url(/assets/images/projects/rock-paper-scissors/scissors.webp);
+  background-image: url(assets/images/projects/rock-paper-scissors/scissors.webp);
 }
 
 .rps-container {
