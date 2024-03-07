@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { UserService } from "@core/services/user.service";
 import { Card } from "@shared/components/bento-card/bento-card.component";
 import { ListCardElement } from "@shared/components/list-card/list-card.component";
 
@@ -8,6 +9,13 @@ import { ListCardElement } from "@shared/components/list-card/list-card.componen
   styles: [],
 })
 export class HomeComponent {
+  username: string = "";
+
+  constructor(private userService: UserService) {
+    // Only used sending routing parameters to rps game
+    this.username = userService.getUser().username;
+  }
+
   // Just placeholders
 
   // Projects

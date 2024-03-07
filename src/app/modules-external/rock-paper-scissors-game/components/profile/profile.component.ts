@@ -1,4 +1,5 @@
 import { Component, Input } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-profile",
@@ -55,17 +56,24 @@ export class ProfileComponent {
     "assets/images/projects/rock-paper-scissors/profiles/Isabella.webp",
   ];
 
-  aiProfilePic: string = "assets/images/ai-profile-pic/William.web"; // By default
-  aiName: string = "William";
+  pic: string = "assets/images/ai-profile-pic/William.web"; // By default
+  name: string = "William";
+  @Input() username: string | null = null;
 
   ngOnInit() {
     this.randomAiPic();
-    this.aiName = this.getAiName(this.aiProfilePic);
+
+    if (this.username != null) {
+      this.name = this.username;
+      return
+    }
+
+    this.name = this.getAiName(this.pic);
   }
 
   randomAiPic() {
     const randomIndex = Math.floor(Math.random() * this.aiProfilePics.length);
-    this.aiProfilePic = this.aiProfilePics[randomIndex];
+    this.pic = this.aiProfilePics[randomIndex];
   }
 
   getAiName(imgPath: string): string {

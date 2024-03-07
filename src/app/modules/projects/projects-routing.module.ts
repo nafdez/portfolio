@@ -22,6 +22,10 @@ const routes: Routes = [
         path: 'slot-game',
         loadChildren: () => import('@modules-ext/slot-machine-game/slot-machine-game.module').then((m):typeof SlotMachineGameModule => m.SlotMachineGameModule),
       },
+      {
+        path: '**',
+        redirectTo: ''
+      }
     ]
   }
 ];

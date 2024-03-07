@@ -1,4 +1,5 @@
 import { Component, Renderer2 } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-rps-game",
@@ -24,7 +25,12 @@ export class RpsGameComponent {
   gameFinished: boolean = false;
   btnDisabled: boolean = false;
 
-  constructor(private renderer: Renderer2) {}
+  username: string | null = null;
+
+  constructor(private renderer: Renderer2, private route: ActivatedRoute) {
+    this.username = this.route.snapshot.paramMap.get("name");
+
+  } 
 
   userPick(pick: number) {
     this.uPick = pick;

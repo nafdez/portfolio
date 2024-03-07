@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: RpsGameComponent,
+  },
+  {
+    path: ':name',
+    component: RpsGameComponent,
   }
 ];
 

@@ -47,7 +47,6 @@ export class ReelComponent {
   }
 
   start() {
-    console.log("starting");
     this.isStopped = false;
     this.startFirst(); // TOP
     this.startSecond(); // Middle
@@ -55,7 +54,6 @@ export class ReelComponent {
   }
 
   stop() {
-    console.log("stopping");
     this.isStopped = true;
   }
 
