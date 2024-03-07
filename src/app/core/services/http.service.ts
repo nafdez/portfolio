@@ -13,7 +13,7 @@ import { throwError, Observable, retry, catchError } from "rxjs";
   providedIn: "root",
 })
 export class HttpService {
-  private apiUrl = "https://api.ignaciofp.es:9999";
+  private apiUrl = "https://api.ignaciofp.es";
 
   // Endpoints
   private loginURL = `${this.apiUrl}/auth/login`;
