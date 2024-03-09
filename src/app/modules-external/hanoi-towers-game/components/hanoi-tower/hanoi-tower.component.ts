@@ -9,5 +9,6 @@ import { Component, Input } from '@angular/core';
 export class HanoiTowerComponent {
 
   @Input() disks: number[] = [];
+  @Input() totalDiskNumber: number = 3;
 
 }
