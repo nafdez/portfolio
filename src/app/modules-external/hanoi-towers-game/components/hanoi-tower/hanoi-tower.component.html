@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-end items-center h-full">
+<div (click)="onTowerClick()" class="flex flex-col justify-end items-center h-full cursor-pointer">
     <hanoi-disk *ngFor="let disk of disks" [size]="disk" [maxSize]="totalDiskNumber"
         class="w-full flex justify-center"></hanoi-disk>
         <!-- no debería de tener que poner el flex y el justify center pero no tengo tiempo

@@ -1,7 +1,9 @@
 <main class="flex flex-col h-full justify-center items-center">
     <!-- game -->
     <div class="flex w-11/12 md:w-1/2 justify-between p-2">
-        <span class="bg-base-300 p-2 rounded-lg flex items-center text-center">Points: {{points}}</span>
+        <span
+            class="bg-base-300 p-2 rounded-lg flex items-center text-center">Points:
+            {{points}}</span>
         <div class="flex flex-col items-center mx-8 gap-2">
             <span class="bg-base-300 p-2 rounded-lg">Disk number:
                 {{totalDiskNumber}}</span>
@@ -9,22 +11,26 @@
                 [(ngModel)]="totalDiskNumber" name="totalDiskNumber"
                 type="range" min="3" max="10" value="4" class="range mx-8" />
         </div>
-        <span class="bg-base-300 p-2 rounded-lg flex items-center text-center">Moves: {{moves}}</span>
+        <span
+            class="bg-base-300 p-2 rounded-lg flex items-center text-center">Moves:
+            {{moves}}</span>
     </div>
+
     <div
         class="h-3/5 w-11/12 md:w-1/2 flex border-8 border-base-300 rounded-lg [&>hanoi-tower]:w-1/3 gap-2 p-2">
-        <hanoi-tower [disks]="tower1" [totalDiskNumber]="totalDiskNumber">
-            <hanoi-disk></hanoi-disk>
+        <hanoi-tower (towerEmitter)="onTowerEmit(0)" [disks]="towers[0]"
+            [totalDiskNumber]="totalDiskNumber">
         </hanoi-tower>
         <div class="border border-base-300 w-0"></div>
-        <hanoi-tower [disks]="tower2" [totalDiskNumber]="totalDiskNumber">
-            <hanoi-disk></hanoi-disk>
+        <hanoi-tower (towerEmitter)="onTowerEmit(1)" [disks]="towers[1]"
+            [totalDiskNumber]="totalDiskNumber">
         </hanoi-tower>
         <div class="border border-base-300 w-0"></div>
-        <hanoi-tower [disks]="tower3" [totalDiskNumber]="totalDiskNumber">
-            <hanoi-disk></hanoi-disk>
+        <hanoi-tower (towerEmitter)="onTowerEmit(2)" [disks]="towers[2]"
+            [totalDiskNumber]="totalDiskNumber">
         </hanoi-tower>
     </div>
+
     <div *ngIf="totalDiskNumber >= 7" role="alert"
         class="alert alert-warning w-11/12 md:w-1/2">
         <svg xmlns="http://www.w3.org/2000/svg"
@@ -32,6 +38,7 @@
             viewBox="0 0 24 24"><path stroke-linecap="round"
                 stroke-linejoin="round" stroke-width="2"
                 d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
-        <span>Warning! <br> {{minimunMoves}} moves are at least required to complete</span>
+        <span>Warning! <br> {{minimunMoves}} moves are at least required to
+            complete</span>
     </div>
 </main>
