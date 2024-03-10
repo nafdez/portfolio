@@ -21,21 +21,21 @@ export class HomeComponent {
   // Projects
   project1 = new Card(
     $localize`Rock Paper Scissors`,
-    $localize`Small project for PMDM`,
+    $localize`Rock paper scissors clone in angular.`,
     "assets/images/projects/rock-paper-scissors/proj-pic.png",
     "projects/rps-game"
   );
   project2 = new Card(
-    $localize`Slot-machine`,
-    $localize`Small project for PMDM`,
+    $localize`Slot machine`,
+    $localize`Feel bored when you're away from the bar? Lose all your points playing slot machine.`,
     "assets/images/projects/slot-machine/proj-pic.png",
     "projects/slot-game"
   );
   project3 = new Card(
-    $localize`Project 3`,
-    $localize`Example description project 3`,
-    "assets/images/projects/rock-paper-scissors/proj-pic.png",
-    "projects/rps-game"
+    $localize`Hanoi tower`,
+    $localize`Easy points! Just move disks from one tower to another.`,
+    "assets/images/projects/hanoi-towers/proj-pic.png",
+    "projects/hanoi-game"
   );
 
   frontendSkills: ListCardElement[] = [
