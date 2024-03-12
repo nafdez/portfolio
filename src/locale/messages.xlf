@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="4525621070272963915" datatype="html">
         <source>Software Development student.</source>
@@ -26,17 +26,8 @@
       <trans-unit id="7772973528714116944" datatype="html">
         <source>Rock Paper Scissors</source>
       </trans-unit>
-      <trans-unit id="8537141917509894551" datatype="html">
-        <source>Small project for PMDM</source>
-      </trans-unit>
-      <trans-unit id="7038581506164332089" datatype="html">
-        <source>Slot-machine</source>
-      </trans-unit>
-      <trans-unit id="6851086933784734135" datatype="html">
-        <source>Project 3</source>
-      </trans-unit>
-      <trans-unit id="3352615472154886537" datatype="html">
-        <source>Example description project 3</source>
+      <trans-unit id="5243007259352440924" datatype="html">
+        <source>Slot machine</source>
       </trans-unit>
       <trans-unit id="8693603235657020323" datatype="html">
         <source>Other</source>
@@ -49,6 +40,18 @@
       </trans-unit>
       <trans-unit id="6444188314265110596" datatype="html">
         <source>Databases</source>
+      </trans-unit>
+      <trans-unit id="4622759089585273862" datatype="html">
+        <source>Rock paper scissors clone in angular.</source>
+      </trans-unit>
+      <trans-unit id="6330721368534490233" datatype="html">
+        <source>Easy points! Just move disks from one tower to another.</source>
+      </trans-unit>
+      <trans-unit id="659572248528283400" datatype="html">
+        <source>Feel bored when you&apos;re away from the bar? Lose all your points playing slot machine.</source>
+      </trans-unit>
+      <trans-unit id="986111594242780751" datatype="html">
+        <source>Hanoi tower</source>
       </trans-unit>
     </body>
   </file>

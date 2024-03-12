@@ -34,21 +34,9 @@
         <source>Rock Paper Scissors</source>
         <target state="new">Piedra, papel o tijera</target>
       </trans-unit>
-      <trans-unit id="8537141917509894551" datatype="html">
-        <source>Small project for PMDM</source>
-        <target state="new">Pequeño proyecto para PMDM</target>
-      </trans-unit>
-      <trans-unit id="7038581506164332089" datatype="html">
-        <source>Slot-machine</source>
+      <trans-unit id="5243007259352440924" datatype="html">
+        <source>Slot machine</source>
         <target state="new">Máquina tragaperras</target>
-      </trans-unit>
-      <trans-unit id="6851086933784734135" datatype="html">
-        <source>Project 3</source>
-        <target state="new">Proyecto 3</target>
-      </trans-unit>
-      <trans-unit id="3352615472154886537" datatype="html">
-        <source>Example description project 3</source>
-        <target state="new">Descriptción de ejemplo del proyecto 3</target>
       </trans-unit>
       <trans-unit id="8693603235657020323" datatype="html">
         <source>Other</source>
@@ -65,6 +53,22 @@
       <trans-unit id="6444188314265110596" datatype="html">
         <source>Databases</source>
         <target state="new">Bases de datos</target>
+      </trans-unit>
+      <trans-unit id="4622759089585273862" datatype="html">
+        <source>Rock paper scissors clone in angular.</source>
+        <target state="new">Clon de piedra papel y tijera en Angular.</target>
+      </trans-unit>
+      <trans-unit id="659572248528283400" datatype="html">
+        <source>Feel bored when you&apos;re away from the bar? Lose all your points playing slot machine.</source>
+        <target state="new">Te aburres cuando estás lejos del bar? Pierde todos tus puntos jugando a la máquina tragaperras.</target>
+      </trans-unit>
+      <trans-unit id="986111594242780751" datatype="html">
+        <source>Hanoi tower</source>
+        <target state="new">Torres de Hanói</target>
+      </trans-unit>
+      <trans-unit id="6330721368534490233" datatype="html">
+        <source>Easy points! Just move disks from one tower to another.</source>
+        <target state="new">Puntos fáciles! Tan solo mueve discos de un lado a otro.</target>
       </trans-unit>
     </body>
   </file>
